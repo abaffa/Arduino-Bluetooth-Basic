@@ -1,6 +1,8 @@
 # Arduino-Bluetooth-Basic
 Control a LED using your smartphone via bluetooth
+
 Download the app from here : http://goo.gl/PSXVoF
+
 Website : https://igniteinnovateideas.wordpress.com
 
 ---
@@ -35,8 +37,11 @@ The circuit is so simple and small , there is only few connection to be made
 Arduino Pins           Bluetooth Pins
 
 RX (Pin 0)     ———->      TX
+
 TX (Pin 1)     ———->      RX
+
 5V             ———->      VCC
+
 GND            ———->      GND
 
 Connect a LED negative to GND of arduino and positive to pin 13 with a resistance valued between 220Ω – 1KΩ. And your done with the circuit
@@ -110,7 +115,6 @@ Watch in video how to pair to bluetooth module
 * Select your Bluetooth module from the List (hc 05/06)
 
 ![paired device](https://igniteinnovateideas.files.wordpress.com/2016/04/paired-device.png?w=255&h=437)
-
 ![avaiable device](https://igniteinnovateideas.files.wordpress.com/2016/04/avaiable-device.png?w=257&h=4400)
 
 * After connecting successfully
